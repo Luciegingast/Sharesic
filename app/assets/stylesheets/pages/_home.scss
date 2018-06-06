@@ -1,1 +1,68 @@
-// Specific CSS for your home-page
+/* Specific CSS for your home-page */
+.balance {
+	font-family: 'Francois one', sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: auto;
+	margin-left: 450px;
+	margin-top: 10px;
+	color: #525252;
+}
+
+.son {
+
+	text-align: center;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: auto;
+	margin-right: 450px;
+	margin-top: 10px;
+	color: #525252;
+}
+
+.banner {
+	background-image: asset-data-url("maquettehome2.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.logo {
+	padding: auto;
+	margin: auto;
+}
+
+footer {
+	background-color: #F2F2F2;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:10px;
+	height:50px;
+}
+
+
+.d-flex{
+	background-color: #F2F2F2;
+}
+
+.btn {
+	margin-top: 350px;
+	color: #F2F2F2;
+	margin-left: 585px;
+
+}
+
+.sharesic {
+	font-family: 'Sathu', sans-serif;
+	background-color: #F2F2F2;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 25px;
+}
+
+
+
+
+
