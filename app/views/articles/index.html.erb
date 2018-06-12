@@ -1,45 +1,28 @@
-<!--<div class="text-center">
-		<h1>Trouve ton son</h1>
-		<%= link_to "New article", new_article_path, class: "btn btn-primary" %>
-	</div>
-	<div class="container">
-		<div class="row">
-			<% @articles.each do |article| %>
-				<div class="col-12">
-					<div class="shadow bg-white rounded m-4 p-12 d-flex justify-content-between">
-					<%= link_to article_path(article) do %>
-						<h2><%= article.title %></h2>
-					<%end%>
-					<br><h2><%= "♥" * article.stars %></h2>
-					<p><b><%= article.created_at.strftime("%D") %></b></p>
-					</div>
-				</div>
-			<%end%>
-		</div>
-	</div> -->
+<div class="background"></div>
+<div class="overlay"></div>
 <div class="text-center">
-		<h1>Trouve ton son</h1>
-		<%= link_to "New article", new_article_path, class: "btn btn-primary" %>
+		<h1 class="title_index">Trouve ton son</h1>
+		<%= link_to "Nouveau son", new_article_path, class: "btn btn-primary new" %>
 	</div>
 		<div class="container">
 			<div class="row">
 				<% @articles.each do |article| %>
 			
 					<div class="col-4">
-						<div class="card border-secondary mb-3" style="max-width: 18rem;">
-							<h5 class="card-title">
+						<div class="card border-secondary mb-3" style="max-width: 18rem;" style="text-decoration: none">
+							<h5 class="card-title" style="text-decoration: none">
 								<%= link_to article_path(article) do%>  
 							<h2>
 								<%= article.title %>
 							</h2>
 				
 							</h5>
-							<div class="card-header">
-			  					<p>
-			  						<%= "♥" * article.stars %>
+							<div class="card-header" style="text-decoration: none">
+			  					<p class="stars">
+			  						<%= "⭐" * article.stars %>
 			  					</p>
 								<p>
-									<b><%= article.created_at.strftime("%D") %></b>
+									<b class="date"><%= article.created_at.strftime("%D") %></b>
 								</p>
 								<%end%>
 			  				</div>

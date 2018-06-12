@@ -1,9 +1,118 @@
 // Import page-specific CSS files here.
 @import "home";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-.btn-primary {
-	margin-top: 10px;
-	background-color: black;
-	border : none;
+.new{
+position:absolute;
+top:25%;
+
 }
 
+.row{
+margin-top:15%;
+}
+.submit{
+	margin-top:10%;
+	background-color: black;
+}
+.btn-primary:hover{
+	background-color: #F2F2F2;
+}
+
+.title_index {
+	font-family: 'Francois one', sans-serif;
+	font-size: 40px;
+}
+
+.btn:hover{
+	color:black;
+}
+
+body { 
+	font-family: 'Open Sans', sans-serif;
+	 }
+
+a {
+	text-decoration: none;
+}
+
+h2:hover {
+	text-decoration: none;
+	opacity: -100px;
+    text-shadow: 3px 3px rgb(0,0,0);
+    opacity: 0.5 ;
+    cursor:pointer;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+
+.date {
+	font-size: 10px;
+	color: #F2F2F2;
+}
+
+.stars {
+	font-size: 25px;
+	letter-spacing: 6px;
+}
+
+
+h2 {
+margin:10px;
+font-size: 1em;
+color :#F2F2F2;
+font: uppercase;
+font-family: 'Francois one', sans-serif;
+text-align: center;
+border :none;
+text-decoration: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body { 
+	font-family: 'Open Sans', sans-serif; 
+}
+.background { 
+	position: fixed; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	z-index: -99; 
+}
+
+.overlay {
+	position: fixed; 
+	left: 0;
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	z-index: -98; 
+	}
+
+.title_index {
+	color: #F2F2F2;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	padding-left:8px;
+	letter-spacing: 5px;
+	}
+
+.border-secondary {
+	
+	background-color: transparent;
+}
+
+.card-header {
+	background-color: transparent;
+	text-align: center;
+}	
+
+.text-secondary{
+	background-color: #F2F2F2;
+	opacity: 0.33;
+}

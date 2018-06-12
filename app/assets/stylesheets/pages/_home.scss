@@ -1,68 +1,56 @@
 /* Specific CSS for your home-page */
-.balance {
-	font-family: 'Francois one', sans-serif;
-	font-size: 20px;
-	color: black;
-	text-align: center;
-	padding: auto;
-	margin-left: 450px;
-	margin-top: 10px;
-	color: #525252;
-}
-
-.son {
-
-	text-align: center;
-	font-family: 'Francois One', sans-serif;
-	font-size: 20px;
-	color: black;
-	text-align: center;
-	padding: auto;
-	margin-right: 450px;
-	margin-top: 10px;
-	color: #525252;
-}
-
 .banner {
 	background-image: asset-data-url("maquettehome2.svg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment:fixed;
+	height: 100vh;
 }
+
 .logo {
-	padding: auto;
-	margin: auto;
+padding: auto;
+margin: auto;
 }
 
-footer {
-	background-color: #F2F2F2;
-	position:absolute;
-	bottom:0;
-	width:100%;
-	padding-top:10px;
-	height:50px;
+footer{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:0px;   /* Height of the footer */
 }
-
 
 .d-flex{
 	background-color: #F2F2F2;
+	box-shadow: 0.5px 0.5px 4px #888888;
 }
 
 .btn {
-	margin-top: 350px;
+	font-family: 'Francois one', sans-serif;
 	color: #F2F2F2;
-	margin-left: 585px;
+	border-color: #F2F2F2;
+	width: 150px;
+	background-color: Transparent;
+    position: absolute;
+    top: 65%;
+    right: 43.5%;
+}
 
+.btn:hover {
+	font-family: 'Francois one', sans-serif;
+	color: #525252; 
+	background-color: #F2F2F2 ;
+	border-color: #F2F2F2;
 }
 
 .sharesic {
 	font-family: 'Sathu', sans-serif;
-	background-color: #F2F2F2;
 	text-align: center;
 	letter-spacing: 10px;
 	font-size: 25px;
 }
-
-
-
-
+.signup {
+	font-family: 'Francois one', sans-serif;
+	text-decoration: none;
+	color: #525252;
+}
 
