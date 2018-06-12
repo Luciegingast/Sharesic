@@ -29,7 +29,7 @@ footer{
 	color: #F2F2F2;
 	border-color: #F2F2F2;
 	width: 150px;
-	background-color: Transparent;
+	background-color: #777A7F;
     position: absolute;
     top: 65%;
     right: 43.5%;
@@ -37,11 +37,13 @@ footer{
 
 .btn:hover {
 	font-family: 'Francois one', sans-serif;
-	color: #525252; 
-	background-color: #F2F2F2 ;
+	color: #525253; 
+	background-color: #CED3DC;
 	border-color: #F2F2F2;
 }
-
+.new {
+	margin-top: 5%
+}
 .sharesic {
 	font-family: 'Sathu', sans-serif;
 	text-align: center;
@@ -53,4 +55,11 @@ footer{
 	text-decoration: none;
 	color: #525252;
 }
+.input.btn{
+	background-color: black;
+	border:black;
+}
 
+.login {
+	color:black;
+}

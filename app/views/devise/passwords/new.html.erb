@@ -1,3 +1,5 @@
+<div class="container">
+
 <h2>Forgot your password?</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
@@ -8,8 +10,11 @@
   </div>
 
   <div class="form-actions">
+  	<div class="btn btn-danger">
     <%= f.button :submit, "Send me reset password instructions" %>
+    </div>
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+</div>
